@@ -10,6 +10,7 @@
 
 </head>
 <body>
+    <div class="container"> 
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'natthawalee.mysql.database.azure.com', 'natthawalee@natthawalee', 'Jungjing2184', 'itflab', 3306);
@@ -43,5 +44,6 @@ mysqli_close($conn);
 ?>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
