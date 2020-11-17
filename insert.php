@@ -1,3 +1,4 @@
+<table class="table table-bordered">
 <?php
 
 $conn = mysqli_init();
@@ -24,3 +25,4 @@ if (mysqli_query($conn, $sql)) {
   
 mysqli_close($conn);
 ?>
+</table>
