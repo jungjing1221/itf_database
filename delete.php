@@ -17,6 +17,8 @@ $strid = $_GET["id"];
 		header('Location:show.php');
 	}else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+  } else {
+    echo "Error updating record: " . $conn->error;
   }
 
 
