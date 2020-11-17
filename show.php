@@ -35,7 +35,7 @@ while($Result = mysqli_fetch_array($res, MYSQLI_ASSOC))
     <td><?php echo $Result['name'];?></div></td>
     <td><?php echo $Result['comment'];?></td>
     <td><?php echo $Result['link'];?></td>
-    <td><a href="#" class="btn btn-dark">Edit</a><a style="margin-left:30px;" href="#" class="btn btn-dark">Delete</a></td>
+    <td><a href="form.html" class="btn btn-dark">Edit</a><a style="margin-left:30px;" href="#" class="btn btn-dark">Delete</a></td>
   </tr>
 <?php
 }
