@@ -41,7 +41,7 @@ while($Result = mysqli_fetch_array($res, MYSQLI_ASSOC))
 }
 ?>
 </table>
-<td><a href="#" class="btn btn-dark">Add</a></td>
+<td><a href="#" class="btn btn-dark">Add</a> style="margin-left:30px;"</td>
 <?php
 mysqli_close($conn);
 ?>
