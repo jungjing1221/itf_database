@@ -28,7 +28,7 @@
         <textarea rows="10" cols="20" name="comment" class="form-control" id="idComment" value="<?php echo $row['comment']; ?>" placeholder="Enter Comment"></textarea><br>  
         Link:<br>
         <input type="text" class="form-control" name="link" id="idLink" value="<?php echo $row['link']; ?>" placeholder="Enter Link"> <br><br>
-        <input class="btn btn-dark" type="submit" id="commentBtn">
+        <input class="btn btn-outline-success" type="submit" id="commentBtn">
         </div>
       </form>
     </div>
