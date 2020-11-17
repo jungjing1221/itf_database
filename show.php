@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div class="container"> 
+<div class="container"> 
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'natthawalee.mysql.database.azure.com', 'natthawalee@natthawalee', 'Jungjing2184', 'itflab', 3306);
