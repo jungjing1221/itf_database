@@ -15,7 +15,9 @@ $strid = $_GET["id"];
 
 	if(mysqli_affected_rows($conn)) {
 		header('Location:show.php');
-	}
+	}else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+  }
 
 
 
