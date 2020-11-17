@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div class="container" style="margin-top:30px;">
+<div class="container" style="margin-top:50px;">
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'natthawalee.mysql.database.azure.com', 'natthawalee@natthawalee', 'Jungjing2184', 'itflab', 3306);
@@ -35,7 +35,7 @@ while($Result = mysqli_fetch_array($res, MYSQLI_ASSOC))
     <td><?php echo $Result['name'];?></div></td>
     <td><?php echo $Result['comment'];?></td>
     <td><?php echo $Result['link'];?></td>
-    <td><a href="#" class="btn btn-dark">Edit</a><a style="margin-left:50px;" href="#" class="btn btn-dark">Delete</a></td>
+    <td><a href="#" class="btn btn-dark">Edit</a><a style="margin-left:30px;" href="#" class="btn btn-dark">Delete</a></td>
   </tr>
 <?php
 }
